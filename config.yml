@@ -1,0 +1,40 @@
+#Example configuration file, remember to remove "example_" from the file after adding your tokens!
+
+#Discord Bot token:
+#To get your bot's token, go to https://discord.com/developers/applications click "New application",
+#click "Bot" on the left bar, click "Add bot" and confirm, then click "Copy" under "Click to reveal token"
+token: "OTk0Nzc0MTMxMjY0NDc1MjU2.G6piP0.hwnASche8CJho7oGsds4RHoSUJqLNG7UTjZV5g"
+
+#Owner id
+#Put here the id of the owner of the bot, so they can use commands like restart
+owner: "685716988471148552"
+
+#Spotify Client ID and Client Secret, to support spotify playlists:
+#To get your client ID and secret you need to visit https://developer.spotify.com/dashboard/applications and log in or create a new account,
+#click "Create an app", give it a name and description, check both boxes and click "Create",
+#then you can find your your Client ID and to find your Client Secret simply click "Show Client Secret"
+clientid: "cab67e48ec124f70b9bcb804045d1454"
+clientsecret: "94fb259afb8f495f8e1279b0eedc5d8a"
+
+#Genius API key, to make the "!lyrics" command work:
+#To get a Genius API key, open https://docs.genius.com and login or create a new account,
+#click the grey "Authorize With Genius" button on the left, after that, if you scroll down you will find a line on the left side
+# that says "Authorization: Bearer XXXXXXXXXX" but with your API key instead of XXXXXXXXXX, copy that and paste it below
+genius: "wm9jdNqCnZ4nrtnQgGl8VkpIm7V9g_gU6zCy-XI-diHk__EB0EGJuPz_quVngNPC"
+
+
+#DON'T TOUCH THIS IF YOU DON'T KNOW WHAT YOU ARE DOING:
+#DB Info, like username, password...
+#SQLite
+datasourcename: ./data/yadmb.db
+#MySQL
+#datasourcename: root:AQt81yoggNIYkOA3vy69@containers-us-west-76.railway.app:6432/railway
+
+#Driver type, aka what database to use. For now we support only "sqlite" and "mysql"
+#SQLite
+drivername: sqlite
+#MySQL
+#drivername: mysql
+
+#Log level. Possible value are error, warning, informational and debug
+loglevel: informational
